@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"experimentalDecorators": true,
+		"removeComments": true,
+		"outDir": "dist",
+		"sourceMap": true,
+		"lib": [
+			"ES5",
+			"ES6",
+			"ES2015",
+			"DOM"
+		]
+    	},
+	"include": [
+		"**/*.ts",
+		"**/*.spec.ts"
+	]
+}

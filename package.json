@@ -1,0 +1,31 @@
+{
+  "name": "crm-constructor",
+  "version": "0.0.5",
+  "main": "lib/index.js",
+  "bin": {
+    "crm": "bin/crm.js"
+  },
+  "scripts": {
+    "app": "cd app && npm start",
+    "server": "node dist/bin/startServer.js",
+    "test": "node dist/tests/index.spec.js",
+    "docker-network": "docker inspect $(docker network ls -f name=_br0 -q)",
+    "build": "cd app && npm build && cd .. && docker-compose up"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.24.0",
+    "mongodb": "^3.3.2",
+    "process": "^0.11.10",
+    "socket.io": "^2.2.0",
+    "systemjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.4",
+    "supertest": "^4.0.2"
+  }
+}
