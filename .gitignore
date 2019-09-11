@@ -1,5 +1,6 @@
 .env
 node_modules/
+dist/
 
 # app dependencies
 app/node_modules
