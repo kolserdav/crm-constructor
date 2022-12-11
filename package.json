@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "^0.0.1-security",
     "moment": "^2.24.0",
     "mongodb": "^3.3.2",
